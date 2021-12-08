@@ -1,0 +1,11 @@
+Created by testinium on 7.12.2021
+
+This is a concept file with following syntax for each concept.
+# Ürün detay sayfasına gidilip ürün favorilere eklenir
+//- Ürün detay sayfası açıldığı kontrol edilir.
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.TextView" id'li element "SEPETE EKLE" text değerini içerdiğni kontrol et
+*"3" saniye bekle
+
+//- favoriler butonuna tıklanır.
+* "com.ozdilek.ozdilekteyim:id/imgFav" id'li elemante tikla
+*"3" saniye bekle

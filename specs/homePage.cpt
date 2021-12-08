@@ -1,0 +1,17 @@
+Created by testinium on 7.12.2021
+
+This is a concept file with following syntax for each concept.
+# Uygulama açılır ve uygulamanın açıldığı kontrolü yapılır
+
+* "5" saniye bekle
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]" değerini içerdiğni kontrol et
+//- Uygulamanın açıldığı kontrol edilir
+
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id'li elemante tikla
+* "3" saniye bekle
+
+//Alışveriş sayfasının açıldıgı doğrulanır
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.TextView" id'li element "Ev Tekstili" text değerini içerdiğni kontrol et
+*"3" saniye bekle
+
+

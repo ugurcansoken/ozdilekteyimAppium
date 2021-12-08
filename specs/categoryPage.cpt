@@ -1,0 +1,27 @@
+Created by testinium on 7.12.2021
+
+This is a concept file with following syntax for each concept.
+# Kategori sayfasını açıp rastgele ürün seçilir
+
+//Katogiriler Sayfası Açılır
+* "//android.widget.FrameLayout[@content-desc='Kategoriler']/android.widget.ImageView" elemente tikla
+*"3" saniye bekle
+//-Katogoriler Sayfasının açıldıgı dogrulanırx
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.TextView" id'li element "Kadın" text değerini içerdiğni kontrol et
+*"3" saniye bekle
+
+//menüden “Kadın” Seçeneğine tıklanır
+* "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.TextView" elemente tikla
+* "3" saniye bekle
+
+//“pantolon” kategorisi açılır
+* "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[4]/android.widget.TextView" elemente tikla
+* "3" saniye bekle
+
+//- Sayfanın en aşagasına doğru iki kere scrol edilir.
+*Scrolldown yapılır
+* "3" saniye bekle
+
+//- Ürünlerden rasgele bir ürün seçilir.
+* "com.ozdilek.ozdilekteyim:id/imageView" ürün seçilir
+* "3" saniye bekle

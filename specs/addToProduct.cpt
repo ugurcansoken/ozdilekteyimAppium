@@ -1,0 +1,12 @@
+Created by testinium on 7.12.2021
+
+This is a concept file with following syntax for each concept.
+# Ürün ekleme islemleri yapılır
+* "com.ozdilek.ozdilekteyim:id/imageView" ürün seçilir
+* "2" saniye bekle
+
+* "com.ozdilek.ozdilekteyim:id/tvInSizeItem" ürün seçilir
+* "3" saniye bekle
+
+*"com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" id'li elemante tikla
+*"2" saniye bekle
